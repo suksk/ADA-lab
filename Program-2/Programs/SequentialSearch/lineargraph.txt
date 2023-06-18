@@ -1,0 +1,7 @@
+set title 'Linear Search'
+set xrange[0:30000]
+set yrange[0:30000]
+set xlabel 'Input'
+set ylabel 'Count'
+set style data linespoint
+plot 'worstlinear.txt' title 'worst case', 'bestlinear.txt' title 'best case'
