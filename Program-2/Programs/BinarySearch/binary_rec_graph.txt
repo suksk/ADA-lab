@@ -1,0 +1,8 @@
+set title 'Binary Search Recursive'
+set xrange[0:10000]
+set yrange[0:15]
+set xlabel 'Input'
+set ylabel 'Count'
+set style data linespoint
+plot 'worst_rec.txt' title 'worst case', 'best_rec.txt' title 'best case'
+
