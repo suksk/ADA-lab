@@ -1,0 +1,8 @@
+set title 'Bubble Sort'
+set xrange[10:1000]
+set yrange[10:30000]
+set xlabel 'Input'
+set ylabel 'Count'
+set style data linespoint
+plot 'worstbubble.txt' title 'worst case', 'bestbubble.txt' title 'best case'
+
