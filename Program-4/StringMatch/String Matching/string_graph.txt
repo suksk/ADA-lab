@@ -1,0 +1,7 @@
+set title 'String Matching'
+set xrange[2:192]
+set yrange[2:9999]
+set xlabel 'Input'
+set ylabel 'Count'
+set style data linespoint
+plot 'w_string.txt' title 'worst case', 'b_string.txt' title 'best case'
