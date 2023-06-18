@@ -1,0 +1,8 @@
+set title 'Selection Sort'
+set xrange[10:10000]
+set yrange[20:50000000]
+set xlabel 'Input'
+set ylabel 'Count'
+set style data linespoint
+plot 'SS.txt' 
+
