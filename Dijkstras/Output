@@ -1,0 +1,33 @@
+Enter the number of vertices:
+6
+ENter the weighted graph:
+0 2 4 0 0 0 
+0 0 1 7 0 0 
+0 0 0 0 3 0
+0 0 0 0 0 1
+0 0 0 2 0 5
+0 0 0 0 0 0 
+
+Distance from source to 1: 2
+Distance from source to 2: 3
+Distance from source to 3: 9
+Distance from source to 4: 9999
+Distance from source to 5: 9999
+Distance from source to 1: 2
+Distance from source to 2: 3
+Distance from source to 3: 9
+Distance from source to 4: 6
+Distance from source to 5: 9999
+Distance from source to 1: 2
+Distance from source to 2: 3
+Distance from source to 3: 8
+Distance from source to 4: 6
+Distance from source to 5: 11
+
+//The final answer
+
+Distance from source to 1: 2
+Distance from source to 2: 3
+Distance from source to 3: 8
+Distance from source to 4: 6
+Distance from source to 5: 9
